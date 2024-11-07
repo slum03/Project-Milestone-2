@@ -21,7 +21,7 @@ app.post('/submit-form', (req, res) => {
     const { name, email } = req.body;
     console.log(`Received form submission: Name - ${name}, Email - ${email}`);
     
-    // Placeholder response, you can save this to a database if needed
+    // Placeholder response
     res.json({ message: `Thank you, ${name}! We received your message.` });
 });
 
